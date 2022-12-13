@@ -5,7 +5,7 @@ package com.driver;
 public class Main {
     public static class Product {
         public int product(int x, int y) {
-            return x + y;
+            return x*y;
 
         }
 
@@ -16,7 +16,7 @@ public class Main {
         }
         public double product(double x,double y)
         {
-            return x+y;
+            return x*y;
 
         }
 
