@@ -11,12 +11,12 @@ public class Main {
 
         public int product(int x,int y,int z)
         {
-            return x+y+z;
+            return x*y*z;
 
         }
-        public double product(double a,double b)
+        public double product(double x,double y)
         {
-            return a+b;
+            return x+y;
 
         }
 
@@ -27,10 +27,9 @@ public class Main {
     public static void main(String[] args)
     {
         Product obj=new Product();
-        int ans1=obj.product(3,4);
-        int ans2 =obj.product(3,4,5);
-      double ans3= obj.product(33.00,44.00);
-        System.out.println(ans1 +" "+ans2+" "+ans3);
+       obj.product(3,4);
+        obj.product(3,4,5);
+      obj.product(33.00,44.00);
 
 
     }
